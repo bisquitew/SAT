@@ -51,23 +51,3 @@ Parsing a CNF File
 using Python
 from src.cnf_parser import parse_cnf  
 cnf_formula = parse_cnf("example.cnf")  
-. Repository Structure
-SAT/  
-├── CNF FILES/                
-│   └── cnf_parser.py   
-│   DP/
-│   ├── results_davis_putnam.txt
-│   ├── sat_DP_solver.cpp 
-│   ├── sat_DP_solver.exe
-│   DPLL/
-│   ├── results_DPLL.txt
-│   ├── sat_DPLL_solver.cpp
-│   ├── sat_DPLL_solver.exe
-│   RESOLUTION/
-│   ├── results_resolution.txt
-│   ├── sat_resolution_solver.cpp
-│   ├── sat_resolution_solver.exe
-│   SAT_GENERATOR
-│   ├── generate_sat.py
-│   LICENSE
-│   README.md
