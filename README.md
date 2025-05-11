@@ -11,27 +11,16 @@ Benchmarking and testing scripts.
 
 . Features
 SAT Solvers:
-
 DPLL algorithm
-
-CDCL algorithm (if implemented)
-
-Problem Generation:
-
-Random k-SAT instances
-
+DP algorithm
+Resolution Method
 Customizable clause/variable counts
 
 CNF Tools:
-
 DIMACS CNF parser
-
 Formula simplification
-
 Benchmarking:
-
 Performance comparisons
-
 Statistical analysis
 
 . Installation
